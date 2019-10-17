@@ -12,7 +12,7 @@
 			<div class="container">
 				<div id="navbar">
 					<ul class="nav navbar-nav navbar-left">
-						<li><a href="<?php echo BASE_URL; ?>">Pagamento de metas</a></li>
+						<li><a href="<?php echo BASE_URL; ?>">MERP</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="<?php echo BASE_URL; ?>login/enter">Login</a></li>
@@ -22,8 +22,7 @@
 			</div>
 		</nav>
 		<div class="container">
-            <h4>SISTEMA DE PAGAMENTO DE METAS - 123MILHAS/BUSCAFÁCIL</h4>
-            <img src="<?php echo BASE_URL; ?>assets/images/logo-123Milhas.png" id="centro" />
+            <h4>Medical Erp(MERP)</h4>
          </div>
     </body>
 </html>

@@ -5,14 +5,14 @@ require 'environment.php';
 $config = array();
 
 if (ENVIRONMENT == 'development') {
-    define("BASE_URL", "http://127.0.0.1/goals/");
-    $config['dbname'] = 'goals';
+    define("BASE_URL", "http://127.0.0.1/merp/");
+    $config['dbname'] = 'merp';
     $config['host'] = '127.0.0.1';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '123456';
 } else {
-    define("BASE_URL", "http://127.0.0.1/goals/");
-    $config['dbname'] = 'goals';
+    define("BASE_URL", "http://127.0.0.1/merp/");
+    $config['dbname'] = 'merp';
     $config['host'] = '127.0.0.1';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '123456';

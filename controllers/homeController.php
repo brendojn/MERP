@@ -11,7 +11,7 @@ class homeController extends controller
 
     public function index()
     {
-        header("Location: ". BASE_URL . "tasks");
+        header("Location: ". BASE_URL . "patient");
     }
 
 }

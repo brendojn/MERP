@@ -3,7 +3,7 @@
         <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <title>Goals</title>
+	    <title>MERP</title>
 	    <link href="<?php echo BASE_URL; ?>assets/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
@@ -11,7 +11,7 @@
 			<div class="container">
 				<div id="navbar">
 					<ul class="nav navbar-nav navbar-left">
-						<li><a href="<?php echo BASE_URL; ?>">Pagamento de metas</a></li>
+						<li><a href="<?php echo BASE_URL; ?>">MERP</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="<?php echo BASE_URL; ?>login/entrar">Login</a></li>
@@ -30,8 +30,8 @@
 	        <form method="POST">
 
 	        	<div class="form-group">
-	        		<label for="user">Usuário:</label>
-	        		<input type="text" class="form-control" name="user" id="user" />
+	        		<label for="user">Email:</label>
+	        		<input type="text" class="form-control" name="email" id="email" />
 	        	</div>
 
 	        	<div class="form-group">

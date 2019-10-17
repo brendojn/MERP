@@ -11,7 +11,7 @@
 			<div class="container">
 				<div id="navbar">
 					<ul class="nav navbar-nav navbar-left">
-						<li><a href="<?php echo BASE_URL; ?>">Pagamento de metas</a></li>
+						<li><a href="<?php echo BASE_URL; ?>">MERP</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="<?php echo BASE_URL; ?>login/entrar">Login</a></li>
@@ -30,9 +30,25 @@
 	        <form method="POST">
 
 	        	<div class="form-group">
-	        		<label for="nome">Usuário:</label>
-	        		<input type="text" class="form-control" name="user" id="user" />
+	        		<label for="nome">Email:</label>
+	        		<input type="email" class="form-control" name="email" id="email" />
 	        	</div>
+
+                <div class="form-group">
+	        		<label for="nome">Nome Completo:</label>
+	        		<input type="text" class="form-control" name="name" id="name" />
+	        	</div>
+
+                <div class="form-group">
+                    <label for="nome">Especialidade:</label>
+                    <input type="text" class="form-control" name="specialty" id="specialty" />
+                </div>
+
+                <div class="form-group">
+                    <label for="nome">CRM:</label>
+                    <input type="number" class="form-control" name="crm" id="crm" />
+                </div>
+
 
 	        	<div class="form-group">
 	        		<label for="password">Senha:</label>

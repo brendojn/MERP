@@ -1,6 +1,6 @@
 <?php
 
-class tasksController extends controller
+class consultationController extends controller
 {
 
     public function __construct()
